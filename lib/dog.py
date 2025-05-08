@@ -6,9 +6,10 @@
 
 
 class Dog:
-    def __init__(self, name):
+    def __init__(self, name, breed="Mutt"):
         self.name = name
+        self.breed = breed
 
 
 mutina = Dog("Kasui")
-print(mutina.name)
+print(mutina.breed)
